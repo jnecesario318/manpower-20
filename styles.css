@@ -1,0 +1,473 @@
+body{
+    background-color: darkgray;
+    padding-top: 100px;
+    background-image: url('background-website.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar {
+    background-image: url('navbar-background.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    width: 96vw;
+    margin: 20px;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+.large-logo {
+    height: 30px;
+    width: 120px;
+    cursor: pointer;
+    display: inline;
+}
+
+.small-logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: orange;
+}
+
+.navbar-button {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navbar-button:hover {
+    background-color: #e95649;
+}
+
+.photo-container {
+    max-width: 100%;
+    overflow: hidden;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.photo-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;   
+}
+
+span{
+    color: orange;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.second-overlay-text {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;    
+    color: black; 
+}
+
+.overlay-button{
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    text-decoration: none;   
+}
+
+.overlay-button-design{
+    height: 45px;
+    width: 150px;
+    border-radius: 30px;
+    background-color: orange;
+    color: black;
+    border-style: none;
+}
+
+.overlay-button-design:hover{
+    background-color: ivory;
+    border-style: solid;
+}
+
+.overlay-card {
+    position: absolute;
+    top: 100%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+    background-color: ivory;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+}
+
+.overlay-card img {
+    width: 100%;
+    height: auto;
+}
+
+.overlay-card h2 {
+    background-color: orange;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+}
+
+.overlay-card p {
+    padding: 15px;
+    margin: 0;
+}
+
+.overlay-card:hover{
+    cursor: pointer;
+    transform: translate(-50%, -50%) scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+}
+
+.what-manpower{
+    background-image: url('whay-we-do-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    padding: 50px 100px; 
+}
+
+.card-services-list{
+    font-family: Arial, sans-serif;
+    background-color: ivory;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.manpower-card {
+    background-color: ivory;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    overflow: hidden;
+    width: 300px;
+}
+.manpower-card:hover{
+    cursor: pointer;
+    background-color: #d9d9d9; /* New background color on hover */
+    transform: scale(1.05);
+}
+
+.card-image img {
+    width: 300px;
+    height: 250px;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.manpower-card h2 {
+    background-color: orange;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+}
+
+.manpower-card p {
+    padding: 15px;
+    margin: 0;
+}
+
+.manpower-card-info{
+    height: 40px;
+    width: 150px;
+    background-color: orange;
+    border-style: none;
+    border-radius: 30px;
+}
+
+.manpower-card-info:hover{
+    cursor: pointer;
+    background-color: ivory;
+    border-style: solid;   
+}
+
+.why-list{
+    background-color: ivory;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+}
+
+.why-list li{
+    list-style-type: none;
+    margin: 20px;
+}
+
+.why-list h1{
+    color: orange;
+}
+
+.why-list img{
+    height: 20px;
+    width: 20px;
+    margin-right: 30px;
+}
+
+.why-list video{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 500px;
+    height: 300px; 
+}
+
+.certification-container{
+    background-color: ivory;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.certification-container img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+/*my footer*/
+.footer-design{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: white;
+    background-color: orange;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.footer-design li{
+    list-style-type: none;
+    margin: 25px;
+}
+
+.footer-design span{
+    font-size: 100px;
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
+
+.footer-design img{
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+}
+
+.footer-design li:hover{
+    cursor: pointer;
+    color: black;
+}
+
+footer{
+    text-align: center;
+    margin: 40px;
+}
+/* Default styles for all screens */
+
+
+/* Mobile styles */
+
+
+
+@media (min-width: 350px) and (max-width: 500px) {
+    /* Styles for screens up to 768px wide (typical tablet) */
+    .navbar{
+        display: flex;
+    }
+    .navbar ul {
+        display: none;
+    }
+
+    .navbar li {
+        display: none;
+    }
+    .large-logo {
+        display: none;
+    }
+    .small-logo {
+        display: inline;
+    }
+    .overlay-text{
+        font-size: 20px;
+        margin-left: 15px;
+    }
+    .second-overlay-text{
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .overlay-button{
+        display: none;
+    }
+    .overlay-card{
+        display: none;
+    }
+    .why-list{
+        flex-direction: column; 
+    }
+    .why-list video{
+        height: 200px;
+        width: 250px;
+    }
+    .footer-design{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+/* Tablet styles */
+@media (min-width: 500px) and (max-width: 800px) {
+    .navbar ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar li {
+        margin: 10px 0;
+    }
+    .large-logo {
+        display: none;
+    }
+    .small-logo {
+        display: inline;
+    }
+    .overlay-text{
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .second-overlay-text{
+        font-size: 15px;
+        margin-left: -20px;
+    }
+    .overlay-button{
+        margin-left: 15%;
+    }
+    .overlay-card{
+        display: none;
+    }
+    .why-list{
+        flex-direction: column; 
+    }
+    .why-list video{
+        height: 200px;
+        width: 350px;
+    }
+    .footer-design{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+
+@media (min-width: 800px) and (max-width: 900px){
+    .overlay-text{
+        font-size: 40px;
+        margin-left: 20px;
+    }
+    .second-overlay-text{
+        font-size: 20px;
+        margin-left: -30px;
+    }
+    .overlay-button{
+        margin-left: 50px;
+    }
+    .overlay-card{
+        margin-top: -10%;
+        height: 35%;
+        width: 20%;
+        max-width: 200px;
+    }
+    .why-list video{
+        height: 300px;
+        width: 450px;
+    }
+    .footer-design{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1080px) {
+    /* Styles for screens between 768px and 992px wide (typical tablet landscape) */
+    .overlay-text{
+        font-size: 40px;
+        margin-left: -50px;
+    }
+    .second-overlay-text{
+        font-size: 20px;
+        margin-left: -100px;
+    }
+    .overlay-button{
+        margin-left: 20px;
+    }
+    .overlay-card{
+        margin-left: 20px;
+    }
+    .why-list video{
+        height: 300px;
+        width: 450px;
+    }
+    .footer-design{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+
